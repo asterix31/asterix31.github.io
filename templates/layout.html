@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="/static/styles.css" rel="stylesheet" />
+        <title>Ferme du Bousquin</title>
+    </head>
+
+    <body>
+
+        <header id="header">
+
+        </header>
+
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="column_menu" id="menu">
+                        <h2>Menu</h2>
+                            <p>
+                                <button type="button">Accueil</button>
+                            </p>
+                            <p>
+                                <button type="button">Les produits</button>
+                            </p>
+                            <p>
+                                <button type="button">Le tourisme</button>
+                            </p>
+                            <p>
+                                <button type="button">Nous contacter</button>
+                            </p>
+
+                    </div>
+                    <div class="column_body" id="body">
+                        <div class="imgback">
+                            <h2>A mettre à jour</h2>
+                            <p>Sera mis à jour en fonction des boutons appuyés</p>
+                            <p>Par défaut ce sera la page accueil</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+
+
+        {% block body %}{% endblock %}
+
+        <footer>
+            copyright
+        </footer>
+
+    </body>
