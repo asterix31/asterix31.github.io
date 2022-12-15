@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div id="tourisme">
+   <h1>
+      La ferme du Bousquin propose deux gîtes à la location.
+   </h1>
+   <p>
+      Les gîtes sont disponibles à la réservation de Juin à Septembre via la site des Gîtes de France.
+   </p>
+   <h2>
+      Gîte n°139
+   </h2>
+
+   <div id="grid_img">  
+         <img src="/static/gite_139.jpg" alt="Gite n°139">
+         <img src="/static/gite_139_1.jpg" alt="Gite n°139 sejour 1">
+         <img src="/static/gite_139_2.jpg" alt="Gite n°139 sejour 2">
+
+   </div>
+
+   <div class="centrer">
+      <a href="https://www.gites-de-france-cantal.fr/location-Gite-Siran-Cantal-15G139.html" target="_blank">
+         <input type='submit' class="reserver" value="Réserver votre séjour">
+      </a>
+   </div>
+
+   <h2>
+      Gîte n°193
+   </h2>
+   <div id="grid_img">
+      <img src="/static/gite_193.jpg" alt="Gite n°193" >
+      <img src="/static/gite_193_1.jpg" alt="Gite n°193 séjour 1" >
+      <img src="/static/gite_193_2.jpg" alt="Gite n°193 séjour 2" >
+      <img src="/static/gite_193_3.jpg" alt="Gite n°193 séjour 3" >            
+   </div>
+
+
+   <div class="centrer">
+      <a href="https://www.gites-de-france-cantal.fr/location-Gite-Siran-Cantal-15G193.html" target="_blank">
+         <input type='submit' class="reserver" value="Réserver votre séjour">
+      </a>
+   </div>
+</div>
+{% endblock %}
